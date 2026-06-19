@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elite Maids offers premium home cleaning services. Book background-checked, insured professional cleaners online in minutes with 100% satisfaction guarantee.">
+  <title>Elite Maids | Premium Home Cleaning Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Glow Background Accents -->
+  <div class="glow-circle glow-1"></div>
+  <div class="glow-circle glow-2"></div>
+
+  <!-- Header Navigation -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo" id="logo-link">
+        <img src="assets/logo.jpg" alt="Elite Maids Logo" class="logo-img">
+        <span>Elite Maids</span>
+      </a>
+      
+      <nav class="nav" id="main-nav">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+        <a href="#book-now" class="nav-link nav-btn btn btn-primary">Book Now</a>
+      </nav>
+
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <div class="badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+            100% Satisfaction Guaranteed
+          </div>
+          <h1>A Spotless Home, <br><span class="text-gradient">A Brighter Life</span></h1>
+          <p>Experience the ultimate clean with our background-checked, insured professional cleaners. Customized solutions tailored for busy lives and pristine spaces.</p>
+          <div class="hero-ctas">
+            <a href="#book-now" class="btn btn-primary" id="hero-cta-book">Book a Cleaning</a>
+            <a href="#services" class="btn btn-secondary" id="hero-cta-services">Explore Services</a>
+          </div>
+        </div>
+        
+        <div class="hero-image-wrapper reveal">
+          <div class="hero-image-container">
+            <img src="assets/hero-bg.png" alt="Spotless modern clean living room" class="hero-image">
+          </div>
+          
+          <!-- Interactive Floating Badges -->
+          <div class="floating-card floating-card-1">
+            <div class="floating-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+              </svg>
+            </div>
+            <div class="floating-info">
+              <h4>4.9 / 5.0 Rating</h4>
+              <p>Over 800+ 5-star reviews</p>
+            </div>
+          </div>
+          
+          <div class="floating-card floating-card-2">
+            <div class="floating-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <div class="floating-info">
+              <h4>10,000+ Cleaned</h4>
+              <p>Pristine homes served</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Signals Banner -->
+  <section class="trust-banner" id="trust-banner">
+    <div class="container">
+      <div class="trust-banner-container reveal">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <div class="trust-info">
+            <h4>Fully Insured & Bonded</h4>
+            <p>100% covered protection</p>
+          </div>
+        </div>
+        
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+            </svg>
+          </div>
+          <div class="trust-info">
+            <h4>Vetted Professionals</h4>
+            <p>Background-checked cleaners</p>
+          </div>
+        </div>
+        
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <div class="trust-info">
+            <h4>Zero Hidden Fees</h4>
+            <p>Clear flat-rate estimates</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+            </svg>
+          </div>
+          <div class="trust-info">
+            <h4>Eco-Friendly Cleaners</h4>
+            <p>Safe for pets and children</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge">Professional Services</div>
+        <h2>A Level of Clean for Every Need</h2>
+        <p>Choose the specialized cleaning service that perfectly matches your home or workspace layout.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1: Standard Cleaning -->
+        <div class="service-card reveal" id="service-card-standard">
+          <div class="service-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+            </svg>
+          </div>
+          <h3>Standard Cleaning</h3>
+          <p>Perfect for routine maintenance. We clean dust, vacuum floors, sanitize counters, and make your space fresh.</p>
+          <div class="service-tag-pill">Most Popular</div>
+          <ul class="service-features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Dust all surfaces & shelves
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Vacuum carpets & mop floors
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Sanitize bathrooms & kitchen
+            </li>
+          </ul>
+          <button class="btn btn-secondary" data-service="standard" id="btn-details-standard">View Checklist</button>
+        </div>
+
+        <!-- Card 2: Deep Cleaning -->
+        <div class="service-card reveal" id="service-card-deep">
+          <div class="service-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3>Deep Cleaning</h3>
+          <p>Highly detailed clean targeting hidden dust, baseboards, grout scrub, and sanitizing forgotten surfaces.</p>
+          <div class="service-tag-pill">Best for First-Time</div>
+          <ul class="service-features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Detail clean baseboards & trim
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Sanitize high-touch switches
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Deep scrub tiles & grouts
+            </li>
+          </ul>
+          <button class="btn btn-secondary" data-service="deep" id="btn-details-deep">View Checklist</button>
+        </div>
+
+        <!-- Card 3: Move-In/Move-Out -->
+        <div class="service-card reveal" id="service-card-move">
+          <div class="service-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+            </svg>
+          </div>
+          <h3>Move-In / Move-Out</h3>
+          <p>Restore or prepare empty apartments and homes. Deep sanitization inside empty cabinets, ovens, and fridges.</p>
+          <div class="service-tag-pill">Deposit Guarantee</div>
+          <ul class="service-features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Clean inside cabinets & drawers
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Clean inside oven & fridge
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              Wipe all interior closet shelves
+            </li>
+          </ul>
+          <button class="btn btn-secondary" data-service="move" id="btn-details-move">View Checklist</button>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge">Seamless Booking</div>
+        <h2>Primacy of Cleaning in Three Steps</h2>
+        <p>We designed our service to be frictionless and straightforward, saving you precious time.</p>
+      </div>
+
+      <div class="steps-container reveal">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Book Online</h3>
+          <p>Choose your home dimensions, custom extras, and select your date and time in 60 seconds.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>We Clean</h3>
+          <p>Our background-checked, bonded cleaning professionals arrive with eco-safe tools.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Relax & Enjoy</h3>
+          <p>Experience the wonderful feeling of stepping into a spotless, fresh, sparkling home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge">Client Reviews</div>
+        <h2>What Our Customers Say</h2>
+        <p>Read transparent, verified reviews from homeowners and business managers who trust us.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Review 1 -->
+        <div class="testimonial-card reveal">
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote>"The booking process was exceptionally easy, and the cleaners did an absolutely remarkable job. My townhome in Uptown Dallas has never looked this clean. The level of detail on the baseboards was impressive!"</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">SJ</div>
+            <div class="author-info">
+              <h4>Sarah Jenkins</h4>
+              <p>Standard Clean · Uptown Dallas</p>
+            </div>
+            <span class="verified-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              Verified Booking
+            </span>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-card reveal">
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote>"With three kids and two dogs, keeping up with deep cleaning is nearly impossible. Elite Maids comes every other week for a standard clean, and it has been a total lifesaver. Extremely thorough and professional."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">MV</div>
+            <div class="author-info">
+              <h4>Marcus Vance</h4>
+              <p>Standard Clean · Preston Hollow</p>
+            </div>
+            <span class="verified-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              Verified Booking
+            </span>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-card reveal">
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote>"I booked their Move-Out clean for my apartment near Lakewood. They did such an amazing job that my landlord returned my full security deposit with zero deductions. Highly recommend!"</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">EW</div>
+            <div class="author-info">
+              <h4>Emily Watson</h4>
+              <p>Move-Out Clean · Lakewood</p>
+            </div>
+            <span class="verified-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              Verified Booking
+            </span>
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="testimonial-card reveal">
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote>"The cleaners did an incredible deep clean before our family gathering. They were punctual, thorough, and very polite. Walking into a fresh home in Oak Lawn was amazing."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">CR</div>
+            <div class="author-info">
+              <h4>Carlos Ruiz</h4>
+              <p>Deep Clean · Oak Lawn</p>
+            </div>
+            <span class="verified-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              Verified Booking
+            </span>
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="testimonial-card reveal">
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote>"I've tried three other services in Dallas, and none compare to Elite Maids. They are incredibly thorough, arrive exactly on time, and my kitchen counters literally sparkle when they're done."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">DP</div>
+            <div class="author-info">
+              <h4>Diana Prince</h4>
+              <p>Standard Clean · Lakewood</p>
+            </div>
+            <span class="verified-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              Verified Booking
+            </span>
+          </div>
+        </div>
+
+        <!-- Review 6 -->
+        <div class="testimonial-card reveal">
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote>"Outstanding service from start to finish. The move-in clean they performed on my new loft in Deep Ellum was impeccable. Extremely easy online booking and great customer support."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">AC</div>
+            <div class="author-info">
+              <h4>Arthur Curry</h4>
+              <p>Move-In Clean · Deep Ellum</p>
+            </div>
+            <span class="verified-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              Verified Booking
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section (Interactive Calculator) -->
+  <section class="booking-section" id="book-now">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge">Price Estimator</div>
+        <h2>Book in 60 Seconds</h2>
+        <p>Configure your customized cleaning specifications and see an instant price estimate instantly.</p>
+      </div>
+
+      <div class="booking-grid">
+        <!-- Booking Form Left -->
+        <div class="booking-form-card reveal">
+          <form id="booking-form">
+            <!-- Step 1: Personal Info -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="txt-name">Full Name *</label>
+                <input type="text" id="txt-name" required placeholder="John Doe">
+              </div>
+              <div class="form-group">
+                <label for="txt-email">Email Address *</label>
+                <input type="email" id="txt-email" required placeholder="john@example.com">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="txt-phone">Phone Number *</label>
+                <input type="tel" id="txt-phone" required placeholder="(555) 000-0000">
+              </div>
+              <div class="form-group">
+                <label for="txt-date">Preferred Date *</label>
+                <input type="date" id="txt-date" required>
+              </div>
+            </div>
+
+            <!-- Service Address Section -->
+            <h4 class="form-section-title">Service Address</h4>
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="txt-address1">Address Line 1 *</label>
+                <input type="text" id="txt-address1" required placeholder="Street 1">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="txt-address2">Address Line 2</label>
+                <input type="text" id="txt-address2" placeholder="Street 2">
+              </div>
+            </div>
+            <div class="form-row triple-row">
+              <div class="form-group">
+                <label for="txt-city">City / Town *</label>
+                <input type="text" id="txt-city" required placeholder="City">
+              </div>
+              <div class="form-group">
+                <label for="txt-state">State / Region *</label>
+                <input type="text" id="txt-state" required placeholder="State">
+              </div>
+              <div class="form-group">
+                <label for="txt-zip">ZIP / Postal code *</label>
+                <input type="text" id="txt-zip" required placeholder="ZIP / Postal code">
+              </div>
+            </div>
+
+            <!-- Step 2: Service Config -->
+            <div class="form-row" style="margin-top: 1.5rem;">
+              <div class="form-group full-width">
+                <label for="select-service">Cleaning Plan</label>
+                <select id="select-service">
+                  <option value="standard">Standard Cleaning</option>
+                  <option value="deep">Deep Cleaning (+50%)</option>
+                  <option value="move">Move-In/Move-Out (+80%)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Draggable Range Sliders -->
+            <div class="slider-group">
+              <div class="slider-header">
+                <label class="slider-label">How many bedrooms does your home have?</label>
+                <span class="slider-tooltip" id="bed-tooltip">1 Bedroom</span>
+              </div>
+              <div class="slider-wrapper">
+                <div class="slider-icon-left">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M3 14h18m-9-4v8m-3-8v8m6-8v8M3 6h18a2 2 0 012 2v8a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2z"/>
+                  </svg>
+                </div>
+                <input type="range" id="range-bedrooms" min="0" max="6" step="1" value="1" class="theme-slider">
+              </div>
+              <div class="slider-ticks">
+                <span style="left: 0%;">0</span>
+                <span style="left: 16.67%;">1</span>
+                <span style="left: 33.33%;">2</span>
+                <span style="left: 50%;">3</span>
+                <span style="left: 66.67%;">4</span>
+                <span style="left: 83.33%;">5</span>
+                <span style="left: 100%;">6</span>
+              </div>
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-header">
+                <label class="slider-label">How many bathrooms does your home have?</label>
+                <span class="slider-tooltip" id="bath-tooltip">1 Bathroom</span>
+              </div>
+              <div class="slider-wrapper">
+                <div class="slider-icon-left">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v4H4V4zM4 8v10a2 2 0 002 2h12a2 2 0 002-2V8H4zm3 6h2m6 0h2"/>
+                  </svg>
+                </div>
+                <input type="range" id="range-bathrooms" min="0" max="6" step="0.5" value="1" class="theme-slider">
+              </div>
+              <div class="slider-ticks">
+                <span style="left: 0%;">0</span>
+                <span style="left: 16.67%;">1</span>
+                <span style="left: 33.33%;">2</span>
+                <span style="left: 50%;">3</span>
+                <span style="left: 66.67%;">4</span>
+                <span style="left: 83.33%;">5</span>
+                <span style="left: 100%;">6</span>
+              </div>
+              <span class="slider-note">Count bathrooms with only a toilet and sink as a half bathroom</span>
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-header">
+                <label class="slider-label">What is the approximate square footage?</label>
+                <span class="slider-tooltip" id="sqft-tooltip">about 1000 sqft</span>
+              </div>
+              <div class="slider-wrapper">
+                <div class="slider-icon-left">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                  </svg>
+                </div>
+                <input type="range" id="range-sqft" min="300" max="10000" step="100" value="1000" class="theme-slider">
+              </div>
+              <div class="slider-ticks">
+                <span style="left: 0%;">300</span>
+                <span style="left: 7.22%;">1000</span>
+                <span style="left: 17.53%;">2000</span>
+                <span style="left: 38.14%;">4000</span>
+                <span style="left: 100%;">10000</span>
+              </div>
+            </div>
+
+            <!-- Step 3: Frequency Selection -->
+            <div class="frequency-section">
+              <label class="section-label">How often would you like service?</label>
+              <div class="frequency-grid">
+                <label class="freq-card">
+                  <input type="radio" name="frequency" value="one-time" checked>
+                  <span class="freq-card-content">one time</span>
+                </label>
+                <label class="freq-card">
+                  <input type="radio" name="frequency" value="weekly">
+                  <span class="freq-badge">Recommended</span>
+                  <span class="freq-card-content">weekly</span>
+                </label>
+                <label class="freq-card">
+                  <input type="radio" name="frequency" value="every-2-weeks">
+                  <span class="freq-badge">Most Popular</span>
+                  <span class="freq-card-content">every 2 weeks</span>
+                </label>
+                <label class="freq-card">
+                  <input type="radio" name="frequency" value="every-3-weeks">
+                  <span class="freq-card-content">every 3 weeks</span>
+                </label>
+                <label class="freq-card full-width">
+                  <input type="radio" name="frequency" value="monthly">
+                  <span class="freq-badge">Popular</span>
+                  <span class="freq-card-content">monthly</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Step 4: Add-on Extras -->
+            <div class="form-group" style="margin-top: 2rem;">
+              <label>Select Cleaning Add-Ons (Optional)</label>
+              <div class="extras-grid">
+                <!-- Extra Fridge -->
+                <div class="extra-card" id="extra-fridge">
+                  <input type="checkbox" value="fridge" id="chk-fridge">
+                  <div class="extra-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                    </svg>
+                  </div>
+                  <span>Clean Fridge</span>
+                  <span class="extra-price">+$30</span>
+                </div>
+
+                <!-- Extra Oven -->
+                <div class="extra-card" id="extra-oven">
+                  <input type="checkbox" value="oven" id="chk-oven">
+                  <div class="extra-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                    </svg>
+                  </div>
+                  <span>Clean Oven</span>
+                  <span class="extra-price">+$30</span>
+                </div>
+
+                <!-- Extra Cabinets -->
+                <div class="extra-card" id="extra-cabinets">
+                  <input type="checkbox" value="cabinets" id="chk-cabinets">
+                  <div class="extra-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 7a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zm0 7a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2z"/>
+                    </svg>
+                  </div>
+                  <span>Cabinets</span>
+                  <span class="extra-price">+$40</span>
+                </div>
+
+                <!-- Extra Windows -->
+                <div class="extra-card" id="extra-windows">
+                  <input type="checkbox" value="windows" id="chk-windows">
+                  <div class="extra-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
+                    </svg>
+                  </div>
+                  <span>Windows</span>
+                  <span class="extra-price">+$35</span>
+                </div>
+
+                <!-- Extra Pet Hair -->
+                <div class="extra-card" id="extra-pethair">
+                  <input type="checkbox" value="pethair" id="chk-pethair">
+                  <div class="extra-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.757a2 2 0 110 4h-1.32l-2.244 2.244a6.002 6.002 0 01-8.486 0L4.76 14H3.243a2 2 0 110-4H8"/>
+                    </svg>
+                  </div>
+                  <span>Pet Hair Clean</span>
+                  <span class="extra-price">+$25</span>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;" id="btn-submit-booking">Confirm Booking Details</button>
+          </form>
+        </div>
+
+        <!-- Pricing Dashboard Summary card Right -->
+        <div class="pricing-summary-card reveal">
+          <h3>Booking Summary</h3>
+          <ul class="summary-list">
+            <li class="summary-item">
+              <span>Clean Plan</span>
+              <strong id="sum-service-type">Standard Cleaning</strong>
+            </li>
+            <li class="summary-item">
+              <span>Plan Base Fee</span>
+              <strong id="sum-service-price">$90.00</strong>
+            </li>
+            <li class="summary-item">
+              <span>Rooms Selected</span>
+              <strong id="sum-rooms">1 Bed, 1 Bath (1,000 sqft)</strong>
+            </li>
+            <li class="summary-item">
+              <span>Rooms & Size Cost</span>
+              <strong id="sum-rooms-price">$0.00</strong>
+            </li>
+            <li class="summary-item">
+              <span>Frequency</span>
+              <strong id="sum-frequency">One Time</strong>
+            </li>
+            <li class="summary-item" id="sum-discount-row" style="display: none;">
+              <span>Frequency Discount</span>
+              <strong id="sum-frequency-discount" style="color: var(--primary); font-weight: 700;">-$0.00</strong>
+            </li>
+            <li class="summary-item">
+              <span>Add-Ons Total</span>
+              <strong id="sum-extras">None</strong>
+            </li>
+            <li class="summary-item">
+              <span>Add-Ons Cost</span>
+              <strong id="sum-extras-price">$0.00</strong>
+            </li>
+            <li class="summary-item total">
+              <span>Estimated Cost</span>
+              <span id="sum-total">$90.00</span>
+            </li>
+          </ul>
+
+          <div class="guarantee-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+            </svg>
+            <div>
+              <h4>Satisfaction Guarantee</h4>
+              <p>Not 100% satisfied with the quality of clean? Contact us within 24 hours, and we will reclean it for free.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HTML5 Checklist Dialog Modals -->
+  <!-- 1. Standard Modal -->
+  <dialog id="modal-standard">
+    <div class="modal-header">
+      <h3>Standard Cleaning Checklist</h3>
+      <button class="modal-close-btn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <ul class="checklist-list">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Dust all furniture, shelves, and tabletops.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Vacuum carpets, rugs, and mopping hard floor surfaces.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Scrub toilets, showers, bathtubs, and sinks.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Wipe down kitchen counters and appliance exteriors.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Empty waste baskets and replace liners.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Quick straighten up and make unmade beds.</span>
+      </li>
+    </ul>
+  </dialog>
+
+  <!-- 2. Deep Modal -->
+  <dialog id="modal-deep">
+    <div class="modal-header">
+      <h3>Deep Cleaning Checklist</h3>
+      <button class="modal-close-btn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <ul class="checklist-list">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span><strong>All Standard Cleaning tasks included.</strong></span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Wipe baseboards, door frames, and window sills.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Sanitize all light switches, plugs, and door handles.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Deep scrub bathroom tile grout and soap scum.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Dust vent covers, ceiling fans, and high blinds.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Clean range hood exterior and detailed stovetop scrub.</span>
+      </li>
+    </ul>
+  </dialog>
+
+  <!-- 3. Move-In/Move-Out Modal -->
+  <dialog id="modal-move">
+    <div class="modal-header">
+      <h3>Move-In / Move-Out Checklist</h3>
+      <button class="modal-close-btn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <ul class="checklist-list">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span><strong>Standard & Deep Clean items included.</strong></span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Clean inside all kitchen cabinets, drawers, and shelves.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Clean inside the oven, broiler, and storage drawer.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Clean inside the refrigerator, shelves, and crisper boxes.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Clean and dust empty bedroom closets and clothing rods.</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        <span>Remove all cobwebs and wipe clean internal glass panes.</span>
+      </li>
+    </ul>
+  </dialog>
+
+
+
+  <!-- Success Dialogue Box -->
+  <dialog id="success-modal">
+    <div class="success-content">
+      <div class="success-icon-box">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <h3>Booking Plan Saved!</h3>
+      <p>Thank you for submitting. Our Elite Maids coordinator will contact you shortly to confirm your cleaning slot!</p>
+      <button class="btn btn-primary" id="success-close-btn" style="width: 100%;">Got it, Thanks!</button>
+    </div>
+  </dialog>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#" class="logo" style="margin-bottom: 1rem;">
+            <img src="assets/logo.jpg" alt="Elite Maids Logo" class="logo-img">
+            <span>Elite Maids</span>
+          </a>
+          <p>Delivering high-end, reliable cleaning services for modern homes. Vetted, background checked, and fully bonded.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="#services">Standard Cleaning</a></li>
+            <li><a href="#services">Deep Cleaning Plan</a></li>
+            <li><a href="#services">Move-In/Move-Out</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Business Hours</h3>
+          <p style="margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 500;">Monday - Friday</p>
+          <p style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-secondary);">8:00 AM - 6:00 PM</p>
+          <p style="margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 500;">Saturday</p>
+          <p style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-secondary);">9:00 AM - 4:00 PM</p>
+          <p style="margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 500;">Sunday</p>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">Closed / Appointments Only</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Service Areas</h3>
+          <p style="font-size: 0.85rem; line-height: 1.8;">
+            Downtown Dallas, Uptown, Preston Hollow, Lakewood, Park Cities, Oak Lawn, Deep Ellum, and surrounding Dallas areas.
+          </p>
+          <p style="margin-top: 1rem; font-size: 0.85rem; font-weight: 600;">
+            Support: <a href="mailto:hello@elitemaids.example" style="color: var(--primary); text-decoration: none;">hello@elitemaids.example</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Elite Maids Cleaning Services LLC. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky CTA Bottom Sheet Bar -->
+  <div class="mobile-sticky-cta" id="mobile-sticky-bar">
+    <div class="mobile-sticky-info">
+      <p>Clean Estimate</p>
+      <h4 id="sticky-price">$90.00</h4>
+    </div>
+    <a href="#book-now" class="btn btn-primary">Book Now</a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
